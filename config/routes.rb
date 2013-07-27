@@ -2,6 +2,7 @@ DevStatus::Application.routes.draw do
 
   root :to => "home#index"
 
+  resources :repos, :only => [:index, :show]
   #get "home/show"
 
   # The priority is based upon order of creation:
