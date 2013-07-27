@@ -11,5 +11,6 @@
  *= require_self
  *= require ./lib/normalize
  *= require ./lib/main
+ *= require header
  *= require home
  */
