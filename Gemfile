@@ -10,6 +10,7 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'thin'
 gem 'json', '>= 1.7.7'
+gem 'octokit'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -49,7 +50,6 @@ group :test do
   gem 'capybara', '~> 1.1'
   gem 'cucumber-rails', '~> 1.3', :require => false
   gem 'database_cleaner'
-  gem 'heroku'
   gem 'fuubar'
 end
 
