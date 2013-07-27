@@ -1,0 +1,15 @@
+<p>My github details</p>
+<div><%= @me.id %></div>
+<pre><%= @me.to_yaml %></pre>
+
+<p>Levo's github details</p>
+
+<p>Org Name </p>
+<%= @Levo.name %>
+
+<div class="banners">
+  <a href="#">Repos</a>
+  <%= link_to 'Repos', repos_path %>
+  <a href="#">Makers</a>
+  <a href="#">Pull Requests</a>
+</div>
